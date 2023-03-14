@@ -44,7 +44,7 @@ function generatePassword() {
 
   //  userChoics-  object storing user's selected password length and character type choices.
   // 4 boolian vars. and confirm method when user clicks yes var is true, otherwise set to false
-  // will pull these into the generatepassword function to detwermin the char types chosen to include in the password 
+  // will pull these into the generatepassword function to determin the char types chosen to include in the password 
   var userChoices = {
     passwordLength: passwordLength,
     hasLower: hasLower,
@@ -54,8 +54,6 @@ function generatePassword() {
   }
 
   if (userChoices.hasLower == true) {
-
-
     validChars = validChars.concat(lowerCaseChar);
    
   if (userChoices.hasUpper == true) {
